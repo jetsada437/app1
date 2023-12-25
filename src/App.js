@@ -1,7 +1,16 @@
 import React from 'react';
 
 function App() {
-  return <h3>Toon chumporn!!! <br/>wave red</h3>
+  let r= '<b>React</b>'
+  let rn='React Native'
+
+  const el=(
+    <div>
+    Create Web & Apps <br/>
+    with <span dangerouslySetInnerHTML={{__html:r}}/> & {rn}
+    </div>
+  )
+  return el
 }
 
 export default App;
