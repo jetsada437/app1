@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import Router2 from './router2';
-import Router3 from './router3';
+import React from 'react';
+import FormSearch from './form-search';
 
 function App() {
-  let[user,setUser] = React.useState('')
-  return <Router3/>
+  return <FormSearch/>
 }
 export default App
